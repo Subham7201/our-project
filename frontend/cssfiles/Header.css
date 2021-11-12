@@ -1,3 +1,9 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 .header {
     height: 60px;
     display: flex;
@@ -23,7 +29,7 @@
   }
   
   .header__searchInput {
-    height: 12px;
+    height: 20px;
     padding: 10px;
     border: none;
     width: 100%;
@@ -32,7 +38,7 @@
   .header__searchIcon {
     padding: 5px;
     height: 22px !important;
-    background-color: #cd9042;
+    background-color: #1f2f44;
   }
   
   .header__optionLineOne {
@@ -48,6 +54,14 @@
     display: flex;
     align-items: center;
     color: white;
+    background-color: rgb(84, 84, 170);
+    margin-right: 6px;
+  }
+
+  .cart__Icon{
+    padding: 5px;
+    height: 22px !important;
+    background-color: rgb(84, 84, 170);
   }
   
   .header__basketCount {
@@ -67,3 +81,4 @@
     margin-right: 10px;
     color: white;
   }
+
